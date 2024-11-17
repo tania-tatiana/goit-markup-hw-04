@@ -126,8 +126,18 @@ img {
 /* #endregion */
 /* #region HeroScreen */
 .hero {
+  max-width: 1440px;
   background-color: #2e2f42;
+  margin: 0 auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero/people-office\ 1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   font-weight: 700;
@@ -177,6 +187,13 @@ img {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
+.features-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -223,6 +240,12 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .team-img {
+}
+.team-socials-icons {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+  border-radius: 50%;
 }
 .team-subtitle {
   font-weight: 500;
