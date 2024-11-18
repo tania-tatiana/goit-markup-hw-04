@@ -424,9 +424,7 @@ img {
   margin-right: 120px;
 }
 .footer-socials-container {
-  display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 .footer-social-text {
   font-weight: 500;
