@@ -110,7 +110,7 @@ img {
   letter-spacing: 0.02em;
   display: block;
   padding: 24px 0;
-  transition: #404bbf 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: #2e2f42 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link {
   position: relative;
@@ -137,7 +137,7 @@ img {
   gap: 40px;
 }
 .address-item {
-  transition: #404bbf 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: #2e2f42 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-contacts {
 }
@@ -190,7 +190,7 @@ img {
   border: none;
   margin-right: auto;
   margin-left: auto;
-  transition: #4d5ae5 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: #404bbf 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -269,6 +269,7 @@ img {
   width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition: #4d5ae5 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-img {
 }
@@ -309,7 +310,6 @@ img {
   fill: #f4f4fd;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: #4d5ae5 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon:hover,
 .team-icon:focus {
@@ -443,6 +443,7 @@ img {
 .footer-item {
   width: 40px;
   height: 40px;
+  transition: #4d5ae5 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-socials-icons {
 }
@@ -455,7 +456,6 @@ img {
   fill: #f4f4fd;
   border-radius: 50%;
   background-color: #4d5ae5;
-  transition: #4d5ae5 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon:hover,
 .footer-icon:focus {
