@@ -109,9 +109,14 @@ img {
   letter-spacing: 0.02em;
   display: block;
   padding: 24px 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link {
   position: relative;
+}
+.navigation-link.active {
+  color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link.active::after {
   content: '';
@@ -134,6 +139,7 @@ img {
 .address-item {
 }
 .address-contacts {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -150,7 +156,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero/people-office\ 1.jpg');
+    url(../images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -184,6 +190,7 @@ img {
   border: none;
   margin-right: auto;
   margin-left: auto;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -297,8 +304,10 @@ img {
   fill: #f4f4fd;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon:hover {
+.team-icon:hover,
+.team-icon:focus {
   background-color: #404bbf;
 }
 /* #endregion */
@@ -357,10 +366,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background-color: #4d5ae5;
-  padding: 40px 32px 164px 32px;
+  padding: 40px 32px;
   transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -384,7 +392,7 @@ img {
 }
 .footer-logo {
   display: inline-block;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
@@ -399,17 +407,18 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .footer-container {
   display: flex;
 }
 .footer-text-container {
   flex-direction: column;
+  margin-right: 120px;
 }
 .footer-socials-container {
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
   gap: 16px;
 }
 .footer-social-text {
@@ -440,8 +449,10 @@ img {
   fill: #f4f4fd;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon:hover {
+.footer-icon:hover,
+.footer-icon:focus {
   background-color: #31d0aa;
 }
 /* #endregion */
